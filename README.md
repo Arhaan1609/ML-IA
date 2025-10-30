@@ -1,4 +1,4 @@
-```
+
 #  Credit Card Default Prediction – Machine Learning Mini Project
 
 ##  Overview
@@ -21,7 +21,7 @@ The models developed in this project can help financial institutions **identify 
 - **URL:** [IEEE Paper Link](https://ieeexplore.ieee.org/document/8558350)
 
 ##  Project Structure
-```
+
 
 ML IA/
 ├── data/
@@ -41,7 +41,7 @@ ML IA/
 |
 └── README.md
 
-```
+
 
 ##  Project Objective
 The objective of this mini-project is to build a **predictive model** that helps financial institutions identify high-risk customers in advance. By doing so, banks and credit card companies can take preventive actions such as adjusting credit limits, sending reminders, or offering financial counseling, thereby **reducing financial losses** and improving **data-driven decision-making**.
@@ -98,7 +98,7 @@ Generated visualizations for model interpretability:
 - Required Libraries: `numpy`, `pandas`, `scikit-learn`, `matplotlib`, `seaborn`
 
 ### Installation
-```
+
 
 
 # Clone repository
@@ -110,7 +110,7 @@ cd "ML IA"
 
 pip install numpy pandas scikit-learn matplotlib seaborn
 
-```
+
 
 ##  Python Files and Their Purpose
 
@@ -128,18 +128,18 @@ pip install numpy pandas scikit-learn matplotlib seaborn
 ## ▶️ Usage Instructions
 
 ### Run on Main Dataset
-```
+
 
 python run_main_dataset.py
 
-```
+
 
 ### Run on Additional Dataset
-```
+
 
 python run_additional_dataset.py
 
-```
+
 
 ### Output Files
 All output plots and results are saved automatically in the `/data/` folder:
@@ -147,7 +147,7 @@ All output plots and results are saved automatically in the `/data/` folder:
 - Confusion Matrices
 - Comparison Charts
 
-## 📈 Results and Model Comparison
+##  Results and Model Comparison
 
 | Model | Main Dataset Accuracy | Additional Dataset Accuracy |
 |-------|----------------------|----------------------------|
@@ -155,20 +155,20 @@ All output plots and results are saved automatically in the `/data/` folder:
 | Decision Tree | 75-80% | 65-70% |
 | Random Forest | 85-90% | 72-78% |
 
-## 🔍 Observations
+##  Observations
 - **Random Forest** achieved the highest accuracy and AUC scores due to its ensemble learning approach
 - The **main dataset (UCI)** produced better results since it contained richer financial features
 - The **additional dataset**, though simplified, still generated valuable predictive insights
 - **Past payment behavior** and **current balance** emerged as the most influential predictors
 
-## 💡 Key Insights
+##  Key Insights
 - Machine learning can effectively **identify potential defaulters** before payment delays occur
 - **Past payment behavior** and **current balance** are the most influential predictors of default
 - Comparison between datasets highlights how **feature richness impacts model accuracy**
 - **Visual outputs** make insights more interpretable for non-technical stakeholders
 - Even with **limited datasets**, ML-based predictive analytics can enhance decision-making
 
-## 🚀 Key Features
+##  Key Features
 - Real-world UCI dataset used for financial prediction
 - Comparison of three machine learning models
 - Correlation-based feature selection
@@ -176,13 +176,13 @@ All output plots and results are saved automatically in the `/data/` folder:
 - Reproduction of IEEE-published research methodology
 - Model validation across multiple datasets
 
-## 🧠 Technologies Used
+##  Technologies Used
 - **Language:** Python
 - **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
 - **Environment:** Jupyter Notebook / VS Code
 - **Machine Learning Models:** Logistic Regression, Decision Tree, Random Forest
 
-## 🧪 Conclusion
+##  Conclusion
 This project successfully reproduces and validates the IEEE paper "Credit Card Default Prediction using Machine Learning Techniques." The study demonstrates that:
 
 - **Random Forest** delivers the best balance between precision, recall, and accuracy
@@ -190,14 +190,14 @@ This project successfully reproduces and validates the IEEE paper "Credit Card D
 - Even with limited datasets, ML-based predictive analytics can enhance decision-making
 - The approach can be scaled and enhanced for production-level credit risk assessment systems
 
-## 🔮 Future Work
+##  Future Work
 - Experiment with advanced models such as **XGBoost, CatBoost, or LightGBM**
 - Integrate **Explainable AI (XAI)** methods like SHAP and LIME for model transparency
 - Include **time-series data** to track and predict long-term repayment patterns
 - Develop a **web-based interface** to visualize predictions in real-time
 - Incorporate **deep learning approaches** for more complex pattern recognition
 
-## 📚 References
+##  References
 1. Y. Sayjadah, I. A. T. Hashem, F. Alotaibi, and K. A. Kasmiran, *Credit Card Default Prediction using Machine Learning Techniques*, IEEE 4th International Conference on Advances in Computing, Communication & Automation (ICACCA), 2018.
 
 2. I-Cheng Yeh and Che-hui Lien, *The Comparisons of Data Mining Techniques for the Predictive Accuracy of Probability of Default of Credit Card Clients*, Expert Systems with Applications, Vol. 36, 2009.
@@ -207,5 +207,5 @@ This project successfully reproduces and validates the IEEE paper "Credit Card D
 4. Kaggle: Credit Card Defaulter Dataset and Notebooks
 ```
 
-Would you like me to tailor this further (e.g., add a README section, setup instructions for a virtual environment, or a brief SRS outline)?
+
 
